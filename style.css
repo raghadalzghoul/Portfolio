@@ -70,7 +70,9 @@ body {
 
     padding-left: 100px;
     padding-right: 100px;
+    font-size: 20px;
 }
+
 
 
 .my-navbar .navbar-brand {
@@ -107,8 +109,9 @@ body {
 
 .hero {
 
-    height: 500px;
+    height: 600px;
 
+    background-color: red;
     position: relative;
 
     display: flex;
@@ -121,14 +124,7 @@ body {
 
     overflow: hidden;
 
-    font-family:
-        'Lucida Sans',
-        'Lucida Sans Regular',
-        'Lucida Grande',
-        'Lucida Sans Unicode',
-        Geneva,
-        Verdana,
-        sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 
@@ -184,6 +180,33 @@ body {
 
 .hero p {
     line-height: 1.7;
+}
+
+
+
+.cv-button {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 10px 20px;
+
+    background-color: var(--dark);
+
+    color: var(--light);
+
+    text-decoration: none;
+
+    border-radius: 0.5rem;
+
+    font-weight: bold;
+}
+
+
+.cv-button:hover {
+    background-color: var(--primary);
+
+    color: var(--dark);
 }
 
 
