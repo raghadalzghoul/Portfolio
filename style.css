@@ -15,9 +15,9 @@
 
     --primary: #66a6c6;
 
-    --secondary: gold;
+    /* --secondary: gold; */
 
-    --accent: #1abdf8;
+    /* --accent: #1abdf8; */
 
     --dark: #071d2b;
 
@@ -53,7 +53,7 @@ body {
 }
 
 
-/*  NAVBAR */
+/*  navabr*/
 
 .my-navbar {
 
@@ -75,16 +75,12 @@ body {
 
 
 
-.my-navbar .navbar-brand {
-    color: var(--light);
-}
 
 
 .my-navbar .nav-link {
     color: var(--light);
 
-    padding-left: 15px;
-    padding-right: 15px;
+  
 }
 
 
@@ -100,19 +96,14 @@ body {
 }
 
 
-.my-navbar .navbar-toggler-icon {
-    filter: brightness(0) invert(1);
-}
 
 
-/* HERO*/
+/*hero*/
 
 .hero {
 
     height: 600px;
 
-    background-color: red;
-    position: relative;
 
     display: flex;
 
@@ -122,7 +113,6 @@ body {
 
     color: var(--dark);
 
-    overflow: hidden;
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -156,7 +146,7 @@ body {
 
 .text {
 
-    position: relative;
+    /* position: relative; */
 
     z-index: 1;
 
@@ -217,7 +207,7 @@ section {
 }
 
 
-/* aBOUT*/
+/* about*/
 
 .About {
 
@@ -266,7 +256,7 @@ section {
 }
 
 
-/* PROJECTS */
+/* projects */
 
 .work {
 
@@ -276,7 +266,7 @@ section {
 
     justify-content: center;
 
-    align-items: stretch;
+    /* align-items: stretch; */
 
     width: 85%;
 
@@ -379,7 +369,7 @@ section {
 }
 
 
-/*  SKILLS */
+/*  skills */
 
 .skills {
 
@@ -438,7 +428,7 @@ section {
 
     justify-content: center;
 
-    align-items: stretch;
+  
 
     width: 85%;
 
@@ -589,7 +579,6 @@ section {
 
     height: 40px;
 
-    object-fit: contain;
 }
 
 
@@ -681,7 +670,7 @@ section {
 }
 
 
-/* TABLET*/
+/* tablet*/
 
 @media (max-width: 900px) {
 
@@ -748,13 +737,10 @@ section {
 
     /* contact long email */
 
-    .email {
-        min-width: 0;
-    }
+   
 
 
     .email p {
-        overflow-wrap: anywhere;
         word-break: break-word;
     }
 
